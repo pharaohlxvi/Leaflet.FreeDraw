@@ -45,8 +45,10 @@
   "dependencies": {
     "clipper-lib": "~6.2.1",
     "regenerator-runtime": "^0.13.2",
+    "rollup-plugin-typescript2": "^0.24.3",
     "turf-intersect": "~3.0.12",
-    "turf-polygon": "~1.0.3"
+    "turf-polygon": "~1.0.3",
+    "typescript": "^3.6.4"
   },
   "peerDependencies": {
     "leaflet": "^1.2.0",
@@ -79,7 +81,7 @@
     "nightmare": "~3.0.1",
     "ramda": "^0.22.1",
     "rimraf": "~2.6.2",
-    "rollup": "^1.11.3",
+    "rollup": "^1.26.0",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.4",
